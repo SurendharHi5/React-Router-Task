@@ -10,7 +10,7 @@ function Bike() {
       {Array.from({ length: 9 }).map((_, idx) => (
         <Col key={idx}>
           <Card>
-            <Card.Img variant="top" src="src/images/bike.jpg" />
+            <Card.Img variant="top" src="src/images/bike.jpg" alt='Bike image'/>
             <Card.Body>
               <Card.Title>Bike</Card.Title>
               <Card.Text>
